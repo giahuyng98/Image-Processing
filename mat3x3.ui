@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Mat3x3</class>
+ <widget class="QFrame" name="Mat3x3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>127</width>
+    <height>121</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Segoe UI</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::Box</enum>
+  </property>
+  <property name="midLineWidth">
+   <number>0</number>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>8</number>
+   </property>
+   <property name="topMargin">
+    <number>8</number>
+   </property>
+   <property name="rightMargin">
+    <number>8</number>
+   </property>
+   <property name="bottomMargin">
+    <number>8</number>
+   </property>
+   <property name="spacing">
+    <number>8</number>
+   </property>
+   <item row="0" column="3">
+    <widget class="QLineEdit" name="l02"/>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QLineEdit" name="l10"/>
+   </item>
+   <item row="1" column="2">
+    <widget class="QLineEdit" name="l11"/>
+   </item>
+   <item row="1" column="3">
+    <widget class="QLineEdit" name="l12"/>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QLineEdit" name="l20"/>
+   </item>
+   <item row="2" column="2">
+    <widget class="QLineEdit" name="l21"/>
+   </item>
+   <item row="2" column="3">
+    <widget class="QLineEdit" name="l22"/>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLineEdit" name="l01"/>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <widget class="QLineEdit" name="l00"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
